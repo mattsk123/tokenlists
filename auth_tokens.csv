@@ -1,0 +1,4 @@
+id,auth_token_hash,prev_auth_token_hash,auth_token_seen,client_ip,user_agent,seen_at,rotated_at,created_at,updated_at
+8636,ctgV0...,NXpuv...,true,2605:8d80:5431:1f0d:c54b:cc05:b38c:4a37,"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",2025-04-19 09:14:46 UTC,2025-04-19 09:14:44 UTC,2025-04-05 15:03:00 UTC,2025-04-05 15:03:00 UTC
+8604,xA7KP...,xA7KP...,false,2605:8d80:5430:2123:6d10:64af:92eb:1988,"Mozilla/5.0 (Linux; Android 13; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.135 Mobile Safari/537.36",,2025-03-29 13:00:55 UTC,2025-03-29 13:00:55 UTC,2025-03-29 13:00:55 UTC
+8603,jlEc/...,SXJ7X...,true,2605:8d80:5431:1f0d:c54b:cc05:b38c:4a37,"Mozilla/5.0 (Linux; Android 13; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.99 Mobile Safari/537.36",2025-04-19 08:57:11 UTC,2025-04-19 08:57:09 UTC,2025-03-29 13:00:52 UTC,2025-03-29 13:00:52 UTC
