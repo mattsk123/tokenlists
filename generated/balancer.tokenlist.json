@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 449
+        "patch": 480
     },
     "keywords": [
         "Balancer",
@@ -17,7 +17,7 @@
         "Swap"
     ],
     "logoURI": "https://raw.githubusercontent.com/balancer/pebbles/master/images/pebbles-pad.256w.png",
-    "timestamp": "2025-09-29T17:39:28.075Z",
+    "timestamp": "2025-11-26T06:49:55.320Z",
     "tokens": [
         {
             "chainId": 1,
@@ -122,14 +122,6 @@
             "symbol": "R",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x183015a9ba6ff60230fdeadc3f43b3d788b13e21.png"
-        },
-        {
-            "chainId": 1,
-            "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
-            "name": "Maker",
-            "symbol": "MKR",
-            "decimals": 18,
-            "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/logo.png"
         },
         {
             "chainId": 1,
@@ -1778,14 +1770,6 @@
             "name": "Q DAO Governance token v1.0",
             "symbol": "QDAO",
             "decimals": 18
-        },
-        {
-            "chainId": 1,
-            "address": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359",
-            "name": "Sai Stablecoin v1.0",
-            "symbol": "SAI",
-            "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/1442/large/dai.png?1547035520"
         },
         {
             "chainId": 1,
@@ -8113,6 +8097,46 @@
             "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x936facdf10c8c36294e7b9d28345255539d81bc7.png"
         },
         {
+            "chainId": 1,
+            "address": "0x826180541412D574cf1336d22c0C0a287822678A",
+            "name": "Chainflip",
+            "symbol": "FLIP",
+            "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/25576/large/kdt_AgmT_400x400.png?1696524709"
+        },
+        {
+            "chainId": 1,
+            "address": "0x10Ea9E5303670331Bdddfa66A4cEA47dae4fcF3b",
+            "name": "Session Token",
+            "symbol": "SESH",
+            "decimals": 9,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/56073/large/SES_Logo_RGB_Brandmark_Colour.png?1748330955"
+        },
+        {
+            "chainId": 1,
+            "address": "0x4f8e5DE400DE08B164E7421B3EE387f461beCD1A",
+            "name": "Usdd Stablecoin",
+            "symbol": "USDD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x4f8e5de400de08b164e7421b3ee387f461becd1a.png"
+        },
+        {
+            "chainId": 1,
+            "address": "0xC5d6A7B61d18AfA11435a889557b068BB9f29930",
+            "name": "Savings Usdd",
+            "symbol": "sUSDD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xc5d6a7b61d18afa11435a889557b068bb9f29930.png"
+        },
+        {
+            "chainId": 1,
+            "address": "0x24A3D725C37A8D1a66Eb87f0E5D07fE67c120035",
+            "name": "Eden Token",
+            "symbol": "EDEN",
+            "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/68283/large/eden.png?1755242478"
+        },
+        {
             "chainId": 10,
             "address": "0x4200000000000000000000000000000000000006",
             "name": "Wrapped Ether",
@@ -9027,7 +9051,8 @@
             "address": "0x80Eede496655FB9047dd39d9f418d5483ED600df",
             "name": "Frax USD",
             "symbol": "frxUSD",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53963/large/frxUSD.png?1737792154"
         },
         {
             "chainId": 10,
@@ -9855,6 +9880,14 @@
             "symbol": "ZCHF",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xd4dd9e2f021bb459d5a5f6c24c12fe09c5d45553.png"
+        },
+        {
+            "chainId": 100,
+            "address": "0xe6fF35dc3227a0c46e92b640bCb5c5895AD8C687",
+            "name": "The 4th Pillar Token on xDai",
+            "symbol": "FOUR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xe6ff35dc3227a0c46e92b640bcb5c5895ad8c687.png"
         },
         {
             "chainId": 137,
@@ -12771,7 +12804,10 @@
             "name": "Sonic USD",
             "symbol": "scUSD",
             "decimals": 6,
-            "logoURI": "https://i.ibb.co/PFw2zkx/scUSD64.png"
+            "logoURI": "https://i.ibb.co/PFw2zkx/scUSD64.png",
+            "extensions": {
+                "coingeckoId": "rings-scusd"
+            }
         },
         {
             "chainId": 146,
@@ -13546,7 +13582,10 @@
             "name": "Rezerve.money",
             "symbol": "RZR",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/rzr.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/rzr.png",
+            "extensions": {
+                "coingeckoId": "rezerve-money"
+            }
         },
         {
             "chainId": 146,
@@ -13754,6 +13793,69 @@
             "symbol": "bUSD",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/busd.png"
+        },
+        {
+            "chainId": 146,
+            "address": "0xC76995054Ce51DfBBC954840D699b2F33D2538Ee",
+            "name": "Beets Looped Sonic",
+            "symbol": "loopS",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xc76995054ce51dfbbc954840d699b2f33d2538ee.png"
+        },
+        {
+            "chainId": 146,
+            "address": "0xe90FE2DE4A415aD48B6DcEc08bA6ae98231948Ac",
+            "name": "Trevee Token",
+            "symbol": "TREVEE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/trevee.png"
+        },
+        {
+            "chainId": 146,
+            "address": "0x618383942cABb00aa3a13101b825a703DC082752",
+            "name": "Main Street Yield",
+            "symbol": "msY",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/msY.png"
+        },
+        {
+            "chainId": 146,
+            "address": "0x2dDCF85D3Cf27DEA338e0371D38409Ba80058630",
+            "name": "BMX: Wrapped Sonic Liquidity Token",
+            "symbol": "wSLT",
+            "decimals": 18
+        },
+        {
+            "chainId": 196,
+            "address": "0xe538905cf8410324e03A5A23C1c177a474D59b2b",
+            "name": "Wrapped OKB",
+            "symbol": "WOKB",
+            "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/37278/large/okb.png?1713935642"
+        },
+        {
+            "chainId": 196,
+            "address": "0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
+            "name": "USD₮0",
+            "symbol": "USD₮0",
+            "decimals": 6
+        },
+        {
+            "chainId": 196,
+            "address": "0x4ae46a509F6b1D9056937BA4500cb143933D2dc8",
+            "name": "Global Dollar",
+            "symbol": "USDG",
+            "decimals": 6
+        },
+        {
+            "chainId": 196,
+            "address": "0xb7C00000bcDEeF966b20B3D884B98E64d2b06b4f",
+            "name": "OKX Wrapped BTC",
+            "symbol": "xBTC",
+            "decimals": 8,
+            "extensions": {
+                "coingeckoId": "okx-wrapped-btc"
+            }
         },
         {
             "chainId": 250,
@@ -15092,7 +15194,7 @@
             "name": "Last USD",
             "symbol": "USDXL",
             "decimals": 18,
-            "logoURI": "https://coin-images.coingecko.com/coins/images/55083/large/usdxl.jpg?1743648438"
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xca79db4b49f608ef54a5cb813fbed3a6387bc645.png"
         },
         {
             "chainId": 999,
@@ -15431,6 +15533,37 @@
             "symbol": "HYPED",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x4d0ff6a0dd9f7316b674fb37993a3ce28bea340e.png"
+        },
+        {
+            "chainId": 999,
+            "address": "0x0E01e3aFd147C7f079eA19d0EcA166Ad3A22e79D",
+            "name": "Hyperwave",
+            "symbol": "HWAVE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x0e01e3afd147c7f079ea19d0eca166ad3a22e79d.png"
+        },
+        {
+            "chainId": 999,
+            "address": "0xa2f8Da4a55898B6c947Fa392eF8d6BFd87A4Ff77",
+            "name": "hwUSD",
+            "symbol": "hwUSD",
+            "decimals": 6,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/70507/large/hwstable.png?1762267461"
+        },
+        {
+            "chainId": 999,
+            "address": "0x20ecF3936Df08556b62fD15a4E167ae99d73b957",
+            "name": "Static USDH Hypurr",
+            "symbol": "stathyUSDH",
+            "decimals": 6
+        },
+        {
+            "chainId": 999,
+            "address": "0x3Df418bE6Dad3f824d00A7c516DAd3Ea2A5a79C6",
+            "name": "Static WHYPE Hypurr",
+            "symbol": "stathyWHYPE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x3df418be6dad3f824d00a7c516dad3ea2a5a79c6.png"
         },
         {
             "chainId": 1101,
@@ -16839,6 +16972,47 @@
             "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x4e107a0000db66f0e9fd2039288bf811dd1f9c74.png"
         },
         {
+            "chainId": 8453,
+            "address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+            "name": "Frax USD",
+            "symbol": "frxUSD",
+            "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53963/large/frxUSD.png?1737792154",
+            "extensions": {
+                "coingeckoId": "frax-usd"
+            }
+        },
+        {
+            "chainId": 8453,
+            "address": "0xd09ACb80C1E8f2291862c4978A008791c9167003",
+            "name": "Treehouse ETH",
+            "symbol": "tETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xd09acb80c1e8f2291862c4978a008791c9167003.png",
+            "extensions": {
+                "coingeckoId": "treehouse-eth"
+            }
+        },
+        {
+            "chainId": 8453,
+            "address": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
+            "name": "BRZ Token",
+            "symbol": "BRZ",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xe9185ee218cae427af7b9764a011bb89fea761b4.png",
+            "extensions": {
+                "coingeckoId": "brz"
+            }
+        },
+        {
+            "chainId": 8453,
+            "address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
+            "name": "IDRX",
+            "symbol": "IDRX",
+            "decimals": 2,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/34883/large/IDRX_BLUE_COIN_200x200.png?1734983273"
+        },
+        {
             "chainId": 9745,
             "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
             "name": "Wrapped XPL",
@@ -17075,6 +17249,92 @@
             "symbol": "trillions",
             "decimals": 18,
             "logoURI": "https://coin-images.coingecko.com/coins/images/69560/large/trillions.png?1759039612"
+        },
+        {
+            "chainId": 9745,
+            "address": "0xa9C251F8304b1B3Fc2b9e8fcae78D94Eff82Ac66",
+            "name": "TelosC Surge",
+            "symbol": "tcUSDT0",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xa9c251f8304b1b3fc2b9e8fcae78d94eff82ac66.png"
+        },
+        {
+            "chainId": 9745,
+            "address": "0x616185600989Bf8339b58aC9e539d49536598343",
+            "name": "Staked Plasma USD",
+            "symbol": "splUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x616185600989bf8339b58ac9e539d49536598343.png"
+        },
+        {
+            "chainId": 9745,
+            "address": "0xf91c31299E998C5127Bc5F11e4a657FC0cF358CD",
+            "name": "Plasma USD",
+            "symbol": "plUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xf91c31299e998c5127bc5f11e4a657fc0cf358cd.png"
+        },
+        {
+            "chainId": 9745,
+            "address": "0x29AD7fE4516909b9e498B5a65339e54791293234",
+            "name": "Metronome Synth USD",
+            "symbol": "msUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x29ad7fe4516909b9e498b5a65339e54791293234.png",
+            "extensions": {
+                "coingeckoId": "metronome-synth-usd"
+            }
+        },
+        {
+            "chainId": 9745,
+            "address": "0xA29420057F3e3B9512D4786df135Da1674BD74D4",
+            "name": "Staked avUSD",
+            "symbol": "savUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xa29420057f3e3b9512d4786df135da1674bd74d4.png",
+            "extensions": {
+                "coingeckoId": "avant-staked-usd"
+            }
+        },
+        {
+            "chainId": 9745,
+            "address": "0x76309A9a56309104518847BbA321c261B7B4a43f",
+            "name": "USDT0",
+            "symbol": "dUSDT0-V3-0",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x76309a9a56309104518847bba321c261b7b4a43f.png"
+        },
+        {
+            "chainId": 9745,
+            "address": "0x9c46EE1f01d2b551048F5fF99a4659D98d04BED1",
+            "name": "TelosC Haven",
+            "symbol": "246USDT0",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x9c46ee1f01d2b551048f5ff99a4659d98d04bed1.png"
+        },
+        {
+            "chainId": 9745,
+            "address": "0xC8A8DF9B210243c55D31c73090F06787aD0A1Bf6",
+            "name": "Staked Yuzu USD",
+            "symbol": "syzUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xc8a8df9b210243c55d31c73090f06787ad0a1bf6.png"
+        },
+        {
+            "chainId": 9745,
+            "address": "0xEf7B1A03E0897C33b63159e38d779e3970C0E2fc",
+            "name": "ebUSD Stablecoin",
+            "symbol": "ebUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xef7b1a03e0897c33b63159e38d779e3970c0e2fc.png"
+        },
+        {
+            "chainId": 9745,
+            "address": "0x888888bAb58A7bd3068110749BC7B63B62CE874d",
+            "name": "Staked chUSD",
+            "symbol": "schUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x888888bab58a7bd3068110749bc7b63b62ce874d.png"
         },
         {
             "chainId": 34443,

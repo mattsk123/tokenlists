@@ -833,6 +833,11 @@ export const overwrites: OverwritesForList = {
     },
   },
   [Network.Base]: {
+    '0xE9185Ee218cae427aF7B9764A011bb89FeA761B4': {
+      extensions: {
+        coingeckoId: 'brz',
+      },
+    },
     '0x1f55a02A049033E3419a8E2975cF3F572F4e6E9A': {
       extensions: {
         coingeckoId: 'staked-frax-ether',
@@ -886,6 +891,18 @@ export const overwrites: OverwritesForList = {
     '0xf3527ef8dE265eAa3716FB312c12847bFBA66Cef': {
       extensions: {
         coingeckoId: 'usdx-money-usdx',
+      },
+    },
+    '0xd09acb80c1e8f2291862c4978a008791c9167003': {
+      extensions: {
+        coingeckoId: 'treehouse-eth',
+      },
+    },
+    '0xe5020a6d073a794b6e7f05678707de47986fb0b6': {
+      name: 'Frax USD',
+      symbol: 'frxUSD',
+      extensions: {
+        coingeckoId: 'frax-usd',
       },
     },
   },
@@ -1427,6 +1444,10 @@ export const overwrites: OverwritesForList = {
     },
   },
   [Network.Sonic]: {
+    '0xc76995054ce51dfbbc954840d699b2f33d2538ee': {
+      logoURI:
+        'https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xc76995054ce51dfbbc954840d699b2f33d2538ee.png',
+    },
     '0xe6cc4D855B4fD4A9D02F46B9adae4C5EfB1764B5': {
       logoURI:
         'https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xe6cc4D855B4fD4A9D02F46B9adae4C5EfB1764B5.png',
@@ -1550,6 +1571,9 @@ export const overwrites: OverwritesForList = {
     },
     '0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE': {
       logoURI: 'https://i.ibb.co/PFw2zkx/scUSD64.png',
+      extensions: {
+        coingeckoId: 'rings-scusd',
+      },
     },
     '0x3bcE5CB273F0F148010BbEa2470e7b5df84C7812': {
       logoURI: 'https://i.ibb.co/fMTYnj2/scETH64.png',
@@ -1924,6 +1948,9 @@ export const overwrites: OverwritesForList = {
     '0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5': {
       logoURI:
         'https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/rzr.png',
+      extensions: {
+        coingeckoId: 'rezerve-money',
+      },
     },
     '0xEEEEEEE6d95E55A468D32FeB5d6648754d10A967': {
       logoURI:
@@ -2028,6 +2055,14 @@ export const overwrites: OverwritesForList = {
       logoURI:
         'https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/busd.png',
     },
+    '0xe90fe2de4a415ad48b6dcec08ba6ae98231948ac': {
+      logoURI:
+        'https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/trevee.png',
+    },
+    '0x618383942cabb00aa3a13101b825a703dc082752': {
+      logoURI:
+        'https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/msY.png',
+    },
   },
   [Network.Plasma]: {
     '0x6eAf19b2FC24552925dB245F9Ff613157a7dbb4C': {
@@ -2061,6 +2096,17 @@ export const overwrites: OverwritesForList = {
     },
     '0xe561FE05C39075312Aa9Bc6af79DdaE981461359': {
       extensions: { coingeckoId: 'wrapped-rseth' },
+    },
+    '0x29AD7fE4516909b9e498B5a65339e54791293234': {
+      extensions: { coingeckoId: 'metronome-synth-usd' },
+    },
+    '0xA29420057F3e3B9512D4786df135Da1674BD74D4': {
+      extensions: { coingeckoId: 'avant-staked-usd' },
+    },
+  },
+  [Network.XLayer]: {
+    '0xb7C00000bcDEeF966b20B3D884B98E64d2b06b4f': {
+      extensions: { coingeckoId: 'okx-wrapped-btc' },
     },
   },
 }

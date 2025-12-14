@@ -51,4 +51,8 @@ export default [
   '0x27ec642013bcb3d80ca3706599d3cda04f6f4452', // upump
   '0x9b498c3c8a0b8cd8ba1d9851d40d186f1872b44e', // purr
   '0x4d0ff6a0dd9f7316b674fb37993a3ce28bea340e', // hyped
+  '0x0E01e3aFd147C7f079eA19d0EcA166Ad3A22e79D', // hwave
+  '0xa2f8Da4a55898B6c947Fa392eF8d6BFd87A4Ff77', // hwUSD
+  '0x20ecF3936Df08556b62fD15a4E167ae99d73b957', // statahyUSDH
+  '0x3df418be6dad3f824d00a7c516dad3ea2a5a79c6', // statahyHYPE
 ]
