@@ -27,7 +27,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "ethers": "^6.1.0",
     "fs-extra": "^11.1.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "prettier": "^2.8.4",
     "ts-node": "^10.9.1",
     "tsup": "^6.5.0",
